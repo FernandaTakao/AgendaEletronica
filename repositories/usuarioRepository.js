@@ -10,10 +10,10 @@ module.exports = {
   async buscarPorId(id) {
     return Usuario.findById(id);
   },
-  async atualizar(id, dados) {                       // ← novo
+  async atualizar(id, dados) {                       
     return Usuario.findByIdAndUpdate(id, dados, { new: true });
   },
-  async deletar(id) {                                // ← novo
+  async deletar(id) {                                
     return Usuario.findByIdAndDelete(id);
   }
 };
