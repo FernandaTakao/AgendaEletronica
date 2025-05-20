@@ -104,4 +104,4 @@ node server.js
 
 ## 📚 Créditos 
 
-Este projeto foi desenvolvido como objeto avaliativo da disciplina Programação Web Back-End e tem perspectiva de evoluir e se tornar produto de um TCC focado em saúde mental e registro de pensamentos disfuncionais. Os materiais de apoio incluíram as aulas da disciplina, vídeoaulas complementares no YouTube e tópicos no fórum online Stackoverflow.
+Este projeto foi desenvolvido como objeto avaliativo da disciplina Programação Web Back-End e tem perspectiva de evoluir e se tornar produto de um TCC focado em saúde mental e registro de pensamentos disfuncionais. Os materiais de apoio incluíram as aulas da disciplina, vídeoaulas complementares no YouTube e tópicos no fórum online Stackoverflow; para facilatar a revisão do código e o rastreamento de erros, contou-se com o auxílio da IA ChatGPT.
