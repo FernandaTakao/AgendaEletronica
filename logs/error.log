@@ -1,0 +1,24 @@
+2025-05-19T06:04:48.486Z | SyntaxError: Unexpected token '}', "}"evento":"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Object.criar (C:\Users\Fe\AgendaEletronica\controllers\notificacaoController.js:26:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-19T06:05:04.155Z | SyntaxError: Unexpected token '}', "}"evento":"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Object.criar (C:\Users\Fe\AgendaEletronica\controllers\notificacaoController.js:26:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-19T06:12:22.517Z | Error: Campo "nome" é obrigatório
+    at validar (C:\Users\Fe\AgendaEletronica\controllers\usuarioController.js:8:27)
+    at Object.criar (C:\Users\Fe\AgendaEletronica\controllers\usuarioController.js:26:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-19T23:07:29.425Z | MongoServerError: E11000 duplicate key error collection: agenda.usuarios index: email_1 dup key: { email: "2025-05-20T14:00:00.000Z" }
+    at InsertOneOperation.execute (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async tryOperation (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\operations\execute_operation.js:207:20)
+    at async executeOperation (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async Collection.insertOne (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\collection.js:157:16)
+2025-05-19T23:34:39.805Z | MongoServerError: E11000 duplicate key error collection: agenda.usuarios index: email_1 dup key: { email: "2025-05-20T14:00:00.000Z" }
+    at InsertOneOperation.execute (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async tryOperation (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\operations\execute_operation.js:207:20)
+    at async executeOperation (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async Collection.insertOne (C:\Users\Fe\AgendaEletronica\node_modules\mongodb\lib\collection.js:157:16)
